@@ -10,8 +10,10 @@ public class SampleProgram {
 System.setProperty("webdriver.chrome.driver", "C:\\Users\\SATHISH\\eclipse-workspace\\SimpleJavaProject\\Drivers\\chromedriver.exe");
 	WebDriver driver=new ChromeDriver();
 	driver.get("https://www.google.com/");
-	Thread.sleep(3000);
+	System.out.println("After Method");
+        Thread.sleep(3000);
 	driver.quit();
+	
 	}
 
 }
